@@ -1,8 +1,17 @@
+import Nav from "./Nav";
+import Header from "./Header";
+import Main from "./Main";
+import Footer from "./Footer";
 
 
 function App() {
   return (
-    <h1>hello world2</h1>
+    <>
+      <Nav/>
+      <Header/>
+      <Main/>
+      <Footer/>
+    </>
   )
 }
 
